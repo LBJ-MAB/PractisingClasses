@@ -44,7 +44,7 @@ namespace PractisingClasses
         // }
         
         // much more concise way of doing it:
-        public string Name
+        public string? Name
         { get; set; }
     }
     
@@ -120,6 +120,15 @@ namespace PractisingClasses
         Medium,  // 1
         High  // 2
     }
+
+    // practising with structs - your own data type
+    struct Employee
+    {
+        public string Firstname;
+        public string Lastname;
+        public float Salary;
+        public string JobTitle;
+    }
     
     
     
@@ -177,6 +186,22 @@ namespace PractisingClasses
                     Console.WriteLine("High level");
                     break;
             }
+            
+            // practising using a struct
+            Employee employee1;     // make a new employee
+
+            Console.Write("Firstname: ");
+            employee1.Firstname = Console.ReadLine();
+            
+            Console.Write("Lastname: ");
+            employee1.Lastname = Console.ReadLine();
+            
+            Console.Write("Salary: ");
+            employee1.Salary = float.Parse(Console.ReadLine());
+            
+            Console.Write("JobTitle: ");
+            employee1.JobTitle = Console.ReadLine();
+
 
         }
     }
