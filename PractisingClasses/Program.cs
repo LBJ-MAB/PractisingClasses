@@ -79,6 +79,40 @@ namespace PractisingClasses
         }
     }
     
+    // Abstraction
+    // abstract class cannot be used to make objects. The abstract class must be inherited from another class
+    // abstract methods can only be used in abstract classes and do not have a body. The body has to be provided by the derived class
+    abstract class AbstractAnimal
+    {
+        public abstract void animalSound();     // only in abstract classes, no body
+        public void Sleep()     // regular method
+        {
+            Console.WriteLine("sleep");
+        }
+    }
+    class Cat : AbstractAnimal
+    {
+        public override void animalSound()
+        {
+            Console.WriteLine("meow");
+        }
+    }
+    
+    // interfaces
+    // only properties and methods - all abstract and public by default
+    interface IAnimal
+    {
+        void animalSound();     
+    }
+
+    class Pig : IAnimal     // pig class implements IAnimal interface
+    {
+        public void animalSound()
+        {
+            Console.WriteLine("Pig goes oink");
+        }
+    }
+    
     
     
     
@@ -108,6 +142,16 @@ namespace PractisingClasses
             Dog myDog = new Dog();
             myAnimal.AnimalSound();     // "generic animal sound"
             myDog.AnimalSound();        // "woof"
+
+            // AbstractAnimal newAnimal = new AbstractAnimal();    // this won't work - cannot make an instance of an abstract class
+            Cat myCat = new Cat();
+            myCat.animalSound();    // can now access this
+            myCat.Sleep();          // can now access this
+
+            // interfaces
+            Pig myPig = new Pig();
+            myPig.animalSound();
+
         }
     }
 }
