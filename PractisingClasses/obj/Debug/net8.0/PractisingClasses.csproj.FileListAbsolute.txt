@@ -1,0 +1,14 @@
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\bin\Debug\net8.0\PractisingClasses.exe
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\bin\Debug\net8.0\PractisingClasses.deps.json
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\bin\Debug\net8.0\PractisingClasses.runtimeconfig.json
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\bin\Debug\net8.0\PractisingClasses.dll
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\bin\Debug\net8.0\PractisingClasses.pdb
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.AssemblyInfoInputs.cache
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.AssemblyInfo.cs
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.csproj.CoreCompileInputs.cache
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.dll
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\refint\PractisingClasses.dll
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.pdb
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.genruntimeconfig.cache
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\ref\PractisingClasses.dll
