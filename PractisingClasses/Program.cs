@@ -32,6 +32,40 @@ namespace PractisingClasses
             Console.WriteLine("Car year: {0}", year);
         }
     }
+    
+    // practising properties and encapsulation
+    class Person
+    {
+        // private string name;    // make a private field for name
+        // public string Name // this is a property for name field
+        // {
+        //     get { return name; }    // get method
+        //     set { name = value;  }  // set method
+        // }
+        
+        // much more concise way of doing it:
+        public string Name
+        { get; set; }
+    }
+    
+    // practising inheritance by defining a Vehicle class
+    class Vehicle   // base class (parent)
+    {
+        public string brand = "Ford";    // brand of vehicle
+        public void horn()
+        {
+            Console.WriteLine("Honk");
+        }
+    }
+    // Van class will inherit Vehicle
+    class Van : Vehicle     // derived class (child)
+    {
+        public int volume = 100;
+    }
+    
+    
+    
+    
     class Program
     {
         static void Main(string[] args)
@@ -43,6 +77,15 @@ namespace PractisingClasses
 
             myCar.fullThrottle();       // call full throttle method
             myCar.printCarDetails();    // print car details method
+
+
+            Person Adam = new Person();     // new Person class
+            Adam.Name = "Adam";             // set name property
+            Console.WriteLine("name : {0}", Adam.Name);    // get name property
+
+            Van myVan = new Van();      // make an instance of Van which inherits vehicle
+            myVan.horn();               // access the honk method because Van inherits Vehicle
+            Console.WriteLine("Van volume: {0}", myVan.volume);    // access the volume field from Van itself
         }
     }
 }
