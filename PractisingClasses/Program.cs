@@ -62,6 +62,22 @@ namespace PractisingClasses
     {
         public int volume = 100;
     }
+
+    class Animal
+    {
+        public virtual void AnimalSound()
+        {
+            Console.WriteLine("generic animal sound");
+        }
+    }
+
+    class Dog : Animal
+    {
+        public override void AnimalSound()      // override the AnimalSound() method of Animal class
+        {
+            Console.WriteLine("Woof");
+        }
+    }
     
     
     
@@ -86,6 +102,12 @@ namespace PractisingClasses
             Van myVan = new Van();      // make an instance of Van which inherits vehicle
             myVan.horn();               // access the honk method because Van inherits Vehicle
             Console.WriteLine("Van volume: {0}", myVan.volume);    // access the volume field from Van itself
+
+            // Polymorphism
+            Animal myAnimal = new Animal();
+            Dog myDog = new Dog();
+            myAnimal.AnimalSound();     // "generic animal sound"
+            myDog.AnimalSound();        // "woof"
         }
     }
 }
