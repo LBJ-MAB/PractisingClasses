@@ -12,3 +12,4 @@ C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\D
 C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.pdb
 C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.genruntimeconfig.cache
 C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\ref\PractisingClasses.dll
+C:\Users\Laurie.bassett-jones\Projects\PractisingClasses\PractisingClasses\obj\Debug\net8.0\PractisingClasses.sourcelink.json
