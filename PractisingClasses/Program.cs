@@ -113,6 +113,14 @@ namespace PractisingClasses
         }
     }
     
+    // enums
+    enum Level
+    {
+        Low,  // 0
+        Medium,  // 1
+        High  // 2
+    }
+    
     
     
     
@@ -151,6 +159,24 @@ namespace PractisingClasses
             // interfaces
             Pig myPig = new Pig();
             myPig.animalSound();
+            
+            // using an enum
+            Level myVar = Level.Medium;
+            Console.WriteLine(myVar);
+            
+            // using an enum within a switch statement
+            switch (myVar)
+            {
+                case Level.Low:
+                    Console.WriteLine("low level");
+                    break;
+                case Level.Medium:
+                    Console.WriteLine("Medium level");
+                    break;
+                case Level.High:
+                    Console.WriteLine("High level");
+                    break;
+            }
 
         }
     }
